@@ -38,20 +38,21 @@ RESTRICTED
 ___
 
 ### Q: Is the admin/owner of the protocol/contracts TRUSTED or RESTRICTED?
-RESTRICTED
+Restricted - Owner shouldn’t be able to steal funds, but is trusted with setting fee recipient address and fee collection (up to 20%)
 ___
 
 ### Q: Are there any additional protocol roles? If yes, please explain in detail:
 Factory configMaster
-    - Config protocol fee recipient and fee percentage.
-    - Enable new swap fee tiers
-    - Update whitelisted Position Manager
-    - Enable/Disable whitelist requirement for Position Manager
-    - Update configMaster.
+- Config protocol fee recipient and fee percentage.
+- Enable new swap fee tiers
+- Update whitelisted Position Manager
+- Enable/Disable whitelist requirement for Position Manager
+- Update configMaster.
+- configMaster should not be able to steal funds but is trusted with the above actions
 
 Pool Oracle’s owner:
-    - Upgrade Oracle implementation
-    - Rescue funds wrongly sent to the Pool Oracle
+- Upgrade Oracle implementation
+- Rescue funds wrongly sent to the Pool Oracle
 
 ___
 
