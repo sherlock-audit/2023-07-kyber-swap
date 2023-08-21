@@ -48,7 +48,8 @@ Factory configMaster
 - Update whitelisted Position Manager
 - Enable/Disable whitelist requirement for Position Manager
 - Update configMaster.
-- configMaster should not be able to steal funds but is trusted with the above actions
+- update vesting period
+- configMaster should not be able to steal funds but is trusted with the actions above.
 
 Pool Oracle’s owner:
 - Upgrade Oracle implementation
